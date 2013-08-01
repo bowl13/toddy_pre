@@ -1,0 +1,32 @@
+//grilla custom width
+@import "responsive.less";
+
+@gridGutterWidth:5px !important;
+@gridGutterWidth1200:5px !important;
+@gridGutterWidth768:10px !important;
+
+//footer fixed
+@import "footer-fix.less";
+//variables fijas
+.margins{
+	margin:0 !important;
+	padding:0 !important;
+}
+//styles master
+body{
+	.margins();
+	.container{
+		max-width:810px;
+		background-image: url('../img/bg_nofan.jpg');
+		border-radius: 0 !important;
+		.nofan{
+			h1{
+				font-size:50px;
+				color:#fff;
+				font-weight: normal;
+				max-width:585px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
